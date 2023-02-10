@@ -1,11 +1,11 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.6
 import PackageDescription
 
 let package = Package(
     name: "SwiftyMarkdown",
     platforms: [
-        .iOS(SupportedPlatform.IOSVersion.v11),
-        .tvOS(SupportedPlatform.TVOSVersion.v11),
+        .iOS(.v11),
+        .tvOS(.v11),
 		.macOS(.v10_12),
 		.watchOS(.v4)
     ],
